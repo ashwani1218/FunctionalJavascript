@@ -1,6 +1,6 @@
 // Higher Order Functions
 
-let greetArugmentFunction = function () {
+const greetArugmentFunction = function () {
   return "Hello, ";
 };
 
@@ -23,9 +23,9 @@ function makeGreeting(language) {
   };
 }
 
-var greetEnglish = makeGreeting("en");
+const greetEnglish = makeGreeting("en");
 
-var greetSpanish = makeGreeting("es");
+const greetSpanish = makeGreeting("es");
 
 greetEnglish("Ashwani", "Pandey");
 greetSpanish("Ashwani", "Pandey");

@@ -13,7 +13,7 @@ greeting(); // Function invocation.
 
 // Passing functions as an Argument.
 
-let greetArugmentFunction = function () {
+const greetArugmentFunction = function () {
   return "Hello, ";
 };
 
@@ -31,5 +31,5 @@ function greetings() {
   };
 }
 
-let greetingsFunction = greetings(); // Function invocation.
+const greetingsFunction = greetings(); // Function invocation.
 greetingsFunction(); // Inner Function invocation.
